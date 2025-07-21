@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portafolio Profesional </title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body onload="mostrarBienvenida()">
+    <!-- Fondo animado -->
+    <div class="fondo-animado"></div>
+
+    <!-- Encabezado -->
+    <header class="header">
+    <div class="container">
+        <div class="perfil">
+        <img src="Foto.jpg" alt="Foto de perfil" class="foto-perfil" />
+        <h1>César Edu Palomino Berrocal</h1>
+        <p>Estudiante de Ingeniería de Sistemas e Informática</p>
+    </div>
+
+    <!-- Menú de navegación -->
+    <nav class="nav" id="menu">
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Botón hamburguesa -->
+    <button class="hamburguesa" onclick="toggleMenu()">☰</button>
+    </div>
+    </header>
+    <!-- Contenido principal -->
+    <main>
+    <!-- Sección sobre mí -->
+    <section id="sobre-mi" class="seccion">
+        <h2>Sobre mí</h2>
+        <p>
+        Hola, soy Cesar Edu Palomino Berrocal, estudiante de la carrera de Ingeniería de Sistemas e Informática en la Universidad Tecnológica del Perú (UTP), actualmente cursando el quinto ciclo académico. A lo largo de mi formación he estudiado el lenguaje de programación Java, así como algoritmos y estructuras de datos, lo que me ha permitido desarrollar un pensamiento lógico y orientado a la resolución de problemas. Además, tengo conocimientos en bases de datos relacionales y no relacionales, incluyendo SQL, PostgreSQL, Oracle, Cassandra, Hadoop y MongoDB. También manejo herramientas y lenguajes de desarrollo como HTML, CSS, JavaScript, Python, GitHub y Microsoft Excel. Me considero una persona responsable, autodidacta y comprometida con la mejora continua. Busco fortalecer mis habilidades día a día para aportar soluciones tecnológicas innovadoras, eficientes y sostenibles. Mi objetivo es convertirme en un profesional integral, capaz de adaptarme a los cambios del entorno digital y contribuir activamente al desarrollo tecnológico de las organizaciones.
+        </p>
+    </section>
+
+    <!-- Sección habilidades -->
+<section id="habilidades" class="seccion">
+  <h2>Habilidades</h2>
+  <div class="habilidades-grid">
+    <div class="habilidad"><i class="fas fa-database"></i> Oracle</div>
+    <div class="habilidad"><i class="fas fa-database"></i> SQL</div>
+    <div class="habilidad"><i class="fas fa-database"></i> PostgreSQL</div>
+    <div class="habilidad"><i class="fas fa-server"></i> Cassandra</div>
+    <div class="habilidad"><i class="fas fa-hdd"></i> Hadoop</div>
+    <div class="habilidad"><i class="fas fa-leaf"></i> MongoDB</div>
+    <div class="habilidad"><i class="fab fa-js"></i> JavaScript</div>
+    <div class="habilidad"><i class="fab fa-java"></i> Java</div>
+    <div class="habilidad"><i class="fab fa-html5"></i> HTML</div>
+    <div class="habilidad"><i class="fab fa-css3-alt"></i> CSS</div>
+    <div class="habilidad"><i class="fab fa-python"></i> Python</div>
+    <div class="habilidad"><i class="fab fa-github"></i> GitHub</div>
+    <div class="habilidad"><i class="fas fa-file-excel"></i> Excel</div>
+  </div>
+</section>
+
+
+
+    <!-- Sección proyectos -->
+    <section id="proyectos" class="seccion">
+    <h2>Proyectos</h2>
+    <div class="proyectos-grid">
+        <div class="proyecto-card">
+            <img src="https://plagiarismchecker.ai/wp-content/plugins/ftools/assets/87586d16fd92f0e4aefe1711cb0e54ce.gif" alt="Proyecto 1">
+            <h3>Detector de plagio</h3>
+            <p>Aplicación desarrollada en Java y SQL que permite detectar coincidencias entre textos. Se enfoca en comparar documentos y generar alertas de similitud, útil en entornos académicos o profesionales.</p>
+            <a href="Detector_de_Plagio.zip" download class="boton-descarga">Descargar proyecto</a>
+        </div>
+        <div class="proyecto-card">
+            <img src="https://i.pinimg.com/originals/e7/3d/95/e73d95ba4582db3f62d97f317370efbb.gif" alt="Proyecto 2">
+            <h3>Parque de Diversiones</h3>
+            <p>Sistema desarrollado en Java para la gestión de visitantes, colas y atracciones, con generación de reportes en Excel. Se utilizaron hilos, validaciones y estructuras lógicas de programación.</p>
+            <a href="ParqueTematico.zip" download class="boton-descarga">Descargar proyecto</a>
+        </div>
+            <div class="proyecto-card">
+                <img src="https://shorturl.at/xcbIt" alt="Videojuego">
+                <h3>Videojuego</h3>
+                <p>Desarrollo de un videojuego utilizando Java, aplicando estructuras de datos, clases, lógica de enemigos y niveles. El objetivo fue practicar programación orientada a objetos en un entorno interactivo.</p>
+                <a href="Videojuego.zip" download class="boton-descarga">Descargar proyecto</a>
+            </div>
+            <div class="proyecto-card">
+                <img src="https://static.wixstatic.com/media/9d9217_e97b5a448a8c402bb694cfe4c795d492~mv2.gif" alt="Proyecto Musicverse">
+                <h3>Musicverse</h3>
+                <p>
+                    Plataforma basada exclusivamente en bases de datos: Oracle, PostgreSQL, MongoDB, Hadoop y Cassandra. Se diseñó para almacenar, consultar y analizar catálogos musicales desde múltiples sistemas.
+                </p>
+                <a href="Musicerve.zip" download class="boton-descarga">Descargar proyecto</a>
+            </div>
+
+
+    </div>
+    </section>
+
+    <!-- Sección contacto -->
+    <section id="contacto" class="seccion">
+        <h2>Contacto</h2>
+        <form id="formulario-contacto" onsubmit="return validarFormulario()">
+        <input type="text" id="nombre" placeholder="Tu nombre" required>
+        <input type="email" id="correo" placeholder="Tu correo electrónico" required>
+        <textarea id="mensaje" placeholder="Escribe tu mensaje aquí" required></textarea>
+        <button type="submit">Enviar</button>
+        </form>
+    </section>
+    </main>
+
+    <!-- Modal bienvenida -->
+    <div id="modal-bienvenida" class="modal">
+    <div class="modal-contenido">
+        <p>¡Bienvenido a mi portafolio web!</p>
+        <button onclick="cerrarModal()">Cerrar</button>
+    </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
